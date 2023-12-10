@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    char op;
+    double num1,num2,result;
+
+    cout << "do an operation with 2 numbers seperated by spaces: ";
+    cin >> num1 >> op >> num2;
+
+    switch(op){
+        case '*':
+            result = num1 * num2;
+            break;
+        case '/':
+            result = num1 / num2;
+            break;      
+        case '+':
+            result = num1 + num2;
+            break;
+        case '-':
+            result = num1 - num2;
+            break;
+    }
+
+    cout << result;
+
+    return 0;
+}
