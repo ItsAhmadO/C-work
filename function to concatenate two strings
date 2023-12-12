@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+string merge(string first, string last);
+
+int main() {
+    string first, last;
+    cin >> first >>last;
+    string merged_string = merge(first, last) ;
+    cout << merged_string;
+    return 0;
+}
+
+string merge(string first, string last){
+    return first + last;
+}
+    
